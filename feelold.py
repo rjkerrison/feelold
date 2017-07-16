@@ -3,7 +3,6 @@ from event import Event
 from messagetemplate import MessageTemplate
 from messagebuilder import MessageBuilder
 import random
-import math
 import json
 
 def event_from_json(json_event):
