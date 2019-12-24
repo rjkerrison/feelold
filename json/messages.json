@@ -1,26 +1,26 @@
 {
-    "you_are_more_than_half_as_old_as": [
-        "Happy {day} {age}-year-olds! You were born closer to {noun_phrase} than today.",
-        "Are you {age} today? Congratulations! You're halfway to being as old as {noun_phrase}.",
-        "{noun_phrase:capitalise} wasn't yet {age} on {today_minus_age_years}. That was {age} years ago.",
-        "So, look, if you're {age}, {noun_phrase} was nearer your birth than your birth is to now.",
-        "So, look, if you're {age}, {past_historic} nearer your birth than your birth is to now.",
-        "Born {midpoint}? You're now as old as {noun_phrase} was that day.",
-        "Think {noun_phrase} was a while back? Well, if you're {age}, you're over halfway so old.",
-        "If you're {age}, your birth was nearer the day {past_historic} than today.",
-        "{past_historic:capitalise} less than {age} years before {midpoint}. Are you {age}?",
-        "Born before {midpoint}? Well, that's half as long ago as when {past_historic}.",
-        "Born before {midpoint}? That's half as long ago as {noun_phrase}.",
-        "You're {age}? {noun_phrase:capitalise} ain't quite {double_age}.",
-        "Anyone born before {midpoint} is now older than {noun_phrase} was that day.",
-        "A {age}-year-old has been around for over half the time since {who_famous}'s crowning achievement.",
-        "{colloq:capitalise} wasn't as old when {age}-year-olds were born as {age}-year-olds are now.",
-        "{enduring_entity:capitalise} is less than twice the age of any {age}-year-old.",
-        "If you're {age}, you've been around over half as long as {enduring_entity}."
-    ],
-    "you_are_less_than_twice_as_old_as": [
-        "If you're {age}, you are less than twice as old as {noun_phrase}.",
-        "If you're {age}, {past_historic} more than half your life ago.",
-        "Born before {twicepoint}? {noun_phrase:capitalise} was over half your life ago."
-    ]
+  "you_are_more_than_half_as_old_as": [
+    "Happy {day} {age}-year-olds! You were born closer to {noun_phrase} than today.",
+    "Are you {age} today? Congratulations! You're halfway to being as old as {noun_phrase}.",
+    "{noun_phrase:capitalise} wasn't yet {age} on {today_minus_age_years}. That was {age} years ago.",
+    "So, look, if you're {age}, {noun_phrase} was nearer your birth than your birth is to now.",
+    "So, look, if you're {age}, {past_historic} nearer your birth than your birth is to now.",
+    "Born {midpoint}? You're now as old as {noun_phrase} was that day.",
+    "Think {noun_phrase} was a while back? Well, if you're {age}, you're over halfway so old.",
+    "If you're {age}, your birth was nearer the day {past_historic} than today.",
+    "{past_historic:capitalise} less than {age} years before {midpoint}. Are you {age}?",
+    "Born before {midpoint}? Well, that's half as long ago as when {past_historic}.",
+    "Born before {midpoint}? That's half as long ago as {noun_phrase}.",
+    "You're {age}? {noun_phrase:capitalise} ain't quite {double_age}.",
+    "Anyone born before {midpoint} is now older than {noun_phrase} was that day.",
+    "A {age}-year-old has been around for over half the time since {who_famous}'s crowning achievement.",
+    "{colloq:capitalise} wasn't as old when {age}-year-olds were born as {age}-year-olds are now.",
+    "{enduring_entity:capitalise} is less than twice the age of any {age}-year-old.",
+    "If you're {age}, you've been around over half as long as {enduring_entity}."
+  ],
+  "you_are_less_than_twice_as_old_as": [
+    "If you're {age}, you are less than twice as old as {noun_phrase}.",
+    "If you're {age}, {past_historic} more than half your life ago.",
+    "Born after {twicepoint}? {noun_phrase:capitalise} was over half your life ago."
+  ]
 }

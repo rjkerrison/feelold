@@ -31,8 +31,8 @@ class Event(datetime):
             'midpoint_year': midpoint.year,
             'age': age,
             'double_age': age*2,
-            'today_minus_age_years': datetime(today.year - age, today.month, today.day).strftime('%#d %B %Y'),
-            'midpoint': midpoint.strftime('%#d %B %Y'),
+            'today_minus_age_years': datetime(today.year - age, today.month, today.day).strftime('%d %B %Y'),
+            'midpoint': midpoint.strftime('%d %B %Y'),
             'day': today.strftime('%A')
         }
 
@@ -46,8 +46,8 @@ class Event(datetime):
             'twicepoint_year': twicepoint.year,
             'age': age,
             'half_age': age/2,
-            'today_minus_age_years': datetime(today.year - age, today.month, today.day).strftime('%#d %B %Y'),
-            'twicepoint': twicepoint.strftime('%#d %B %Y'),
+            'today_minus_age_years': datetime(today.year - age, today.month, today.day).strftime('%d %B %Y'),
+            'twicepoint': twicepoint.strftime('%d %B %Y'),
             'day': today.strftime('%A')
         }
 

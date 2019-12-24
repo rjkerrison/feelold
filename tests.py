@@ -1,9 +1,10 @@
 import json
 import random
 from datetime import datetime
-from classes import event
+import event
 
 def test_old_enough(age, d1):
+    today = datetime.today
     twoageyearsago = datetime(today.year - 2*age, today.month, today.day)
     return twoageyearsago <= d1
 
