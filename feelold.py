@@ -61,3 +61,9 @@ def get_random_message():
     update_events_json(events)
 
     return builder.build_message()
+
+def main():
+    print(get_random_message())
+
+if __name__ == "__main__":
+    main()
