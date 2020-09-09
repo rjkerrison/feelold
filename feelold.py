@@ -41,7 +41,7 @@ def get_messages():
 
 def update_events_json(events):
     with open('json/events.json', 'w') as eventsfile:
-        eventsjson = json.dump([ob.__dict__ for ob in events], eventsfile, indent=4)
+        json.dump([ob.__dict__ for ob in events], eventsfile, indent=4)
 
 def get_random_message():
 

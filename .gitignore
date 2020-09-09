@@ -1,1 +1,4 @@
 keys
+.vscode/
+__pycache__/
+tests.pyc
