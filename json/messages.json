@@ -14,13 +14,17 @@
     "You're {age}? {noun_phrase:capitalise} ain't quite {double_age}.",
     "Anyone born before {midpoint} is now older than {noun_phrase} was that day.",
     "A {age}-year-old has been around for over half the time since {who_famous}'s crowning achievement.",
-    "{colloq:capitalise} wasn't as old when {age}-year-olds were born as {age}-year-olds are now.",
+    "{colloq:capitalise} wasn't {age} years old when today's {age}-year-olds were born.",
     "{enduring_entity:capitalise} is less than twice the age of any {age}-year-old.",
     "If you're {age}, you've been around over half as long as {enduring_entity}."
   ],
   "you_are_less_than_twice_as_old_as": [
     "If you're {age}, you are less than twice as old as {noun_phrase}.",
     "If you're {age}, {past_historic} more than half your life ago.",
-    "Born after {twicepoint}? {noun_phrase:capitalise} was over half your life ago."
+    "Born after {twicepoint}? {noun_phrase:capitalise} was over half your life ago.",
+    "Are you {age}? Think {enduring_entity} is a newfangled thing? It's been around for over half your life.",
+    "What's up, {age}-year-olds? Does {noun_phrase} feel like modern history? It's been around for over half your life.",
+    "{past_historic:capitalise} on {event_date}, under {years_and_months} ago. Were you {age} years old by then?",
+    "{past_historic:capitalise} on {event_date}, under {years_and_months} ago. Were you {years_and_months} old by then?"
   ]
 }

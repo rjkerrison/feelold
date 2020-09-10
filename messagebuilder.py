@@ -9,7 +9,7 @@ class MessageBuilder():
         self.today = today
 
     def build_message(self):
-        if (self.today.year - self.event.year) > 18:
+        if (self.today.year - self.event.year) > 20:
             replacements = self.event.get_half_replacements(self.today)
             possible_messages = [x for x in self.messages_half if replacements_are_valid(x, replacements)]
             chosen_message = random.choice(possible_messages)
@@ -36,4 +36,4 @@ class MessageBuilderFormatter(Formatter):
             raise
 
 def capitalise(string):
-    return string[0].upper() + string[1:]
+    return f'{string[0].upper()}{string[1:]}'
