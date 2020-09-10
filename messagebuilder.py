@@ -7,6 +7,7 @@ class MessageBuilder():
         self.event = event
         self.messages_half, self.messages_twice = messages
         self.today = today
+        # adding a comment for demonstration purposes
 
     def build_message(self):
         if (self.today.year - self.event.year) > 20:
